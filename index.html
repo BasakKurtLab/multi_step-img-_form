@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container" id="container">
+        <div id="progress"></div>
+        
+        <h2>Fahrzeugsuche</h2>
+
+        <div class="form" style="display: flex;">
+            <span>Fahrzeugtyp auswählen:</span>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="car.png">
+                    <span>Kleinwagen</span>
+                </div>
+                <div class="box">
+                    <img src="car.png">
+                    <span>Limousine</span>
+                </div>
+                <div class="box">
+                    <img src="car.png">
+                    <span>Combi</span>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <span>Baujahr auswählen:</span>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="car.png">
+                    <span>altes Auto</span>
+                </div>
+                <div class="box">
+                    <img src="car.png">
+                    <span>junges Auto</span>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <span>Fahrzeugtyp auswählen:</span>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="car.png">
+                    <span>altes Auto</span>
+                </div>
+                <div class="box">
+                    <img src="car.png">
+                    <span>junges Auto</span>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        <span id="gesendet">ERFOLGREICH GESENDET!</span>
+
+        <div id="schritte">
+            
+        </div>
+
+        <div class="buttons">
+            <button onclick="nav(-1)" id="zurueck">Zurück</button>
+            <button onclick="nav(1)" id="weiter">Weiter</button>
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+<script src="boxen.js"></script>
+</body>
+</html>
